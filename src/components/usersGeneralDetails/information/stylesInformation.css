@@ -1,0 +1,37 @@
+.personal-information-wrapper{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 50px;
+    /* border: 2px solid black; */
+}
+/* .box-1{
+    border: 1px solid green;
+} */
+
+.personal-info{
+    /* border: 2px solid green; */
+    padding: 10px;
+    font-weight: 500;
+    padding-left: 0px;
+}
+.filled{
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+.un-filled{
+    color: #8496bb;
+    font-size: 14px;
+}
+.row-box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    /* width: 700px; */
+}
+.row-1{
+    /* border: 1px solid blue; */
+}
+.fadded-out{
+    color: floralwhite;
+}

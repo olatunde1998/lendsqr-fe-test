@@ -1,0 +1,99 @@
+.Login-component{
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.left-container-wrapper{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+.brand-logo{
+    /* border: 2px solid red; */
+    display: flex;
+}
+.brand-name{
+    width: 100px;
+}
+.brand-Union{
+    /* border: 2px solid blue; */
+    margin-left: 20px;
+    width: 30px;
+    height: 40px;
+}
+.hero-img{
+    /* border: 2px solid red; */
+}
+.right-container-wrapper{
+    /* padding: 10px; */ 
+}
+.welcome{
+    width: 150px;
+    margin-top: 30px;
+}
+.password-wrapper{
+    color: gray;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    padding: 16px;
+    /* color: blue; */
+    border: none;
+    width: 100%;
+}
+.show-wrapper{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+.forget-password{
+    color: #39CDCC;
+    cursor: pointer;    
+}
+.button-wrapper{
+    border: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+button{
+    width: 100%;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #39CDCC;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+@media screen and (min-width: 768px) {
+    .Login-component{
+        display: flex;
+        align-items: center;
+        /* border: 2px solid purple; */
+        height: 90vh;
+    }
+    .brand-logo{
+        margin-bottom: 70px;
+    }
+    .right-container-wrapper{
+        width: 50%;
+        margin-top: 40px;
+        
+    }
+    .left-container-wrapper{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}
