@@ -4,6 +4,7 @@ img{
 }
 .header-wrapper{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     /* border: 2px solid blueviolet; */
     padding: 20px 20px 20px 40px;
@@ -35,6 +36,8 @@ img{
 }
 
 .search-icon{
+    display: flex;
+    align-items: center;
     background-color: #39CDCC;
     color: white;
     padding: 8px;
@@ -72,9 +75,6 @@ img{
 }
 
 @media screen and (min-width: 768px) {
-    .brand-logo{
-        /* margin-bottom: 70px; */
-    }
     .search-wrapper{
         min-width: 400px;
         padding: 3px;
