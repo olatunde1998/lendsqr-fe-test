@@ -13,21 +13,28 @@ img{
 .brand-logo{
     /* border: 2px solid red; */
     display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 500px;
+    flex-direction: row-reverse;
+    padding: 0px;
 }
 .brand-name{
     width: 100px;
+    /* border: 1px solid green; */
+    margin-left: 10px;
 }
 .brand-Union{
     /* border: 2px solid blue; */
-    margin-left: 20px;
-    width: 30px;
+    width: 40px;
     height: 40px;
-}
-.hero-img{
-    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
 }
 .right-container-wrapper{
-    /* padding: 10px; */ 
+    /* border: 1px solid green; */
+    max-width: 500px;
+    margin: 0 auto;
 }
 .welcome{
     width: 150px;
@@ -52,6 +59,7 @@ input{
     display: flex;
     align-items: center;
     margin-right: 4px;
+    color: #39CDCC;
 }
 .forget-password{
     color: #39CDCC;
@@ -62,7 +70,6 @@ input{
     display: flex;
     justify-content: center;
     cursor: pointer;
-
 }
 button{
     width: 100%;

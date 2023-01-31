@@ -2,13 +2,11 @@
   /* border: 1px solid rgb(152, 234, 28); */
   padding-left: 40px;
   padding-right: 40px;
-  max-width: 1024px;
+  /* max-width: 1024px; */
 }
 .content-userdetail-wrapper {
-  overflow: auto;
-  white-space: nowrap;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  /* border: 2px solid blue; */
+  /* border: 2px solid red; */
   margin-top: 40px;
   width: 100%;
 }
@@ -116,9 +114,6 @@
   display: flex;
   align-items: center;
   font-size: 14px;
-  /* border: 1px solid purple; */
-  /* background-color: #e9b200; */
-
 }
 .three-dot{
   /* border: 2px solid blue; */

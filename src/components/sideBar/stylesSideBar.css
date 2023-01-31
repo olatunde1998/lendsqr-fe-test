@@ -5,7 +5,6 @@ body{
     padding-top: 40px;
     /* border: 3px solid peru; */
     width: 200px;
-    /* padding-left: 20px; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .customers-box{
@@ -17,8 +16,6 @@ body{
     padding-left: 30px;
     padding-right: 0px;
     cursor: pointer;
-
-
 }
 .customer-box-1{
     background-color:rgb(233, 254, 254) ;
@@ -34,18 +31,27 @@ body{
     text-transform: uppercase;
     padding: 0px 0px 0px 10px;
     padding-left: 30px;
-
 }
-.brand-logo{
+.brand-logo-sidebar{
     max-width: 100px;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 30px;
     cursor: pointer;
+    display: flex;
     /* border: 2px solid; */
 }
 .union-logo{
     max-width: 20px;
     margin-right: 10px;
+}
+.logout-version{
+    padding-left: 30px;
+    border-top: 1px solid rgb(208, 208, 208);
+}
+.logout,.version{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
 }
 @media(min-width: 768px){
     .sideBar-wrapper{
@@ -53,5 +59,4 @@ body{
         width: 250px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
-
 }
