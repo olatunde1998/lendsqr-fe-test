@@ -4,20 +4,17 @@
   padding-right: 40px;
   /* max-width: 1024px; */
 }
-
 .content-userdetail-wrapper {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   /* border: 2px solid red; */
   margin-top: 40px;
   width: 100%;
 }
-
 .usersRate-wrapper {
   /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
 }
-
 .users-container {
   /* border: 2px solid gray; */
   padding: 20px 10px 10px 20px;
@@ -26,35 +23,29 @@
   font-weight: 800;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
 .diff-users {
   /* color: #545f7d; */
-  color: rgb(84, 95, 125);
+  color: rgba(84, 95, 125, 1);
   text-transform: uppercase;
   font-size: 12px;
   margin-top: 20px;
   font-weight: 500;
 }
-
-.users-icons-1, .users-icons-2, .users-icons-3, .users-icons-4 {
+.users-icons-1,.users-icons-2,.users-icons-3,.users-icons-4 {
   border-radius: 50px;
   display: inline;
   padding: 8px;
   background-color: #f7bac9;
 }
-
-.users-icons-1 {
+.users-icons-1{
   background-color: #f5d4fa;
 }
-
-.users-icons-2 {
+.users-icons-2{
   background-color: #dbcffd;
 }
-
-.users-icons-3 {
+.users-icons-3{
   background-color: #fbc8be;
 }
-
 .details-heading {
   max-width: 1024px;
   margin-top: 3px;
@@ -64,7 +55,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .organization-heading,
 .user-heading,
 .status-heading,
@@ -79,14 +69,12 @@
   text-align: left;
   /* border: 1px solid red; */
 }
-
 .filter-icon {
   /* border:1px solid green; */
   display: flex;
   align-items: center;
   margin-left: 10px;
 }
-
 .userinfo-container {
   display: flex;
   flex-wrap: wrap;
@@ -94,13 +82,11 @@
   padding-right: 24px;
   /* border:2px solid green; */
 }
-
 .items-box {
   border-bottom: 2px solid rgb(201, 201, 201);
   display: flex;
   justify-content: space-between;
 }
-
 .items-orgName,
 .items-userName,
 .items-email,
@@ -116,27 +102,24 @@
   width: 250px;
   margin-right: 10px;
 }
-
 .items-status {
   background-color: #f8efd2;
   margin-right: 0px;
   padding: 20px;
   /* border: 2px solid red; */
   border-radius: 20px;
-}
 
+}
 .dot-name {
   display: flex;
   align-items: center;
   font-size: 14px;
 }
-
-.three-dot {
+.three-dot{
   /* border: 2px solid blue; */
   margin-left: 30px;
   cursor: pointer;
 }
-
 .organi-username {
   display: flex;
   justify-content: space-between;
@@ -160,4 +143,4 @@
     color: #213f7d;
     font-weight: 800;
   }
-}/*# sourceMappingURL=stylesContent.css.map */
+}

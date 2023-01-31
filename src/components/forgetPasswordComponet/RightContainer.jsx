@@ -5,6 +5,7 @@ import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 
 
+
 const RightContainer = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -37,15 +38,14 @@ const RightContainer = () => {
           <input type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email" required/>
         </div>
         <div className="password-wrapper">
-          <input type={`${show ? "text" : "password"}`} onChange={(e) => setPassword(e.target.value)} placeholder="Password" required/>
+          <input type={`${show ? "text" : "password"}`} onChange={(e) => setPassword(e.target.value)} placeholder="New Password" required/>
           <span className="show-wrapper" onClick={() => setShow(!show)}>show</span>
         </div>
         <div className="password-wrapper">
-          <input type={`${show ? "text" : "password"}`} onChange={(e) => setPassword(e.target.value)} placeholder="Confirm Password" required/>
+          <input type={`${show ? "text" : "password"}`} onChange={(e) => setPassword(e.target.value)} placeholder="Confirm New Password" required/>
           <span className="show-wrapper" onClick={() => setShow(!show)}>show</span>
         </div>
         <div className="forget-password">
-          {/* <p>Forget Password</p> */}
           <p>Already have account?</p><Link to="/" style={{textDecoration:"none", color:"#39CDCC"}}><span className="login-btn">Login</span></Link>
         </div>
         <div className="button-wrapper">

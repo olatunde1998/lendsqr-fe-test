@@ -1,5 +1,4 @@
-import React from 'react'
-import './stylesForgetPassword.css';
+import 'components/forgetPasswordComponet/stylesForgetPassword.scss';
 
 import LeftContainer from 'components/LoginComponet/LeftContainer'
 import RightContainer from './RightContainer';
