@@ -22,22 +22,22 @@ const EducationInformation = () => {
       <div className="row-box">
         <div>
           <span className="row-1">
-            <p className="un-filled">Full Name</p>
-            <p className="filled">Grace Effiom</p>
+            <p className="un-filled">Level of Education</p>
+            <p className="filled">B.sc</p>
           </span>
           <span>
-            <p className="un-filled">Marital Status</p>
-            <p className="filled">Single</p>
+            <p className="un-filled">Official Email</p>
+            <p className="filled">grace@ledsqr.com</p>
           </span>
         </div>
         <div>
           <span className="row-1">
-            <p className="un-filled">Phone Number</p>
-            <p className="filled">07034568975</p>
+            <p className="un-filled">Employment Status</p>
+            <p className="filled">Employed</p>
           </span>
           <span>
-            <p className="un-filled">Children</p>
-            <p className="filled">None</p>
+            <p className="un-filled">Monthly Income</p>
+            <p className="filled">#200,000.00 - #400,000.00</p>
           </span>
         </div>
         <div>

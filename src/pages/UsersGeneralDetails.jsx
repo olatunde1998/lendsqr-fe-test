@@ -5,12 +5,11 @@ import "components/navBar/stylesHeader.css";
 import "components/sideBar/stylesSideBar.css";
 import "pages/stylesUsersGenDetails.css";
 
-
 const UsersGeneralDetails = () => {
   return (
     <div className="dashboard-wrapper">
       <div>
-        <SideBar />
+        <SideBar logout="logout" version="v.1.2.0"/>
       </div>
       <div className="header-content">
         <Header />
