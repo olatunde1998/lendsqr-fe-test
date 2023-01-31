@@ -1,8 +1,7 @@
-import React from 'react'
-import './stylesLogin.css';
-
+import 'components/LoginComponet/stylesLogin.scss';
 import LeftContainer from 'components/LoginComponet/LeftContainer'
 import RightContainer from './RightContainer';
+
 
 const LoginComponent = () => {
   return (

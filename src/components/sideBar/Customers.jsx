@@ -1,9 +1,10 @@
 import { MdLockOutline } from "react-icons/md";
 import { FaHandHoldingUsd, FaHandshake, FaUserCheck, FaUserFriends, FaUsers, FaUserTimes } from "react-icons/fa";
-
 import { Link } from "react-router-dom";
 
 const Customers = () => {
+    
+    
   return (
     <div>
         <p className='customer-headings'>Customers</p>
@@ -13,33 +14,39 @@ const Customers = () => {
             <p className='icon-name icon-name-1'>Users</p>
         </div>
         </Link>
-        <div className='customers-box'>
+        <div  className="customers-box">
             <FaUsers/>
-            <p className='icon-name'>Guarantors</p>
+            <Link to="/guarantors" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}><p className='icon-name'>Guarantors</p></Link>
         </div>
         <div className='customers-box'>
             <MdLockOutline/>
-            <p className='icon-name'>Loans</p>
+            <Link to="/loans" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+            <p className='icon-name'>Loans</p></Link>
         </div>
         <div className='customers-box'>
             <FaHandshake/>
-            <p className='icon-name'>Decision Models</p>
+            <Link to="/decision-models" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+            <p className='icon-name'>Decision Models</p></Link>
         </div>
         <div className='customers-box'>
             <MdLockOutline/>
-            <p className='icon-name'>Savings</p>
+            <Link to="/savings" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+            <p className='icon-name'>Savings</p></Link>
         </div>
         <div className='customers-box'>
             <FaHandHoldingUsd/>
-            <p className='icon-name'>Loan Requests</p>
+            <Link to="/loan-requests" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+            <p className='icon-name'>Loan Requests</p></Link>
         </div>
         <div className='customers-box'>
             <FaUserCheck/>
-            <p className='icon-name'>Whitelist</p>
+            <Link to="/whitelist" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+            <p className='icon-name'>Whitelist</p></Link>
         </div>
         <div className='customers-box'>
             <FaUserTimes/>
-            <p className='icon-name'>Karma</p>
+            <Link to="/loans" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+            <p className='icon-name'>Karma</p></Link>
         </div>
 
     </div>

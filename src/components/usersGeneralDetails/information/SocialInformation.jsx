@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import "components/usersGeneralDetails/information/stylesInformation.css";
-// import { BsThreeDotsVertical } from "react-icons/bs";
+import "components/usersGeneralDetails/information/stylesInformation.scss";
 
 const SocialInformation = () => {
   const baseURL =

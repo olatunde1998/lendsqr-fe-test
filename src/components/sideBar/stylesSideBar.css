@@ -1,62 +1,73 @@
-body{
-    color: #2e4c87;
+body {
+  color: #2e4c87;
 }
-.sideBar-wrapper{
-    padding-top: 40px;
+
+.sideBar-wrapper {
+  padding-top: 40px;
+  /* border: 3px solid peru; */
+  width: 200px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.customers-box {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #8496bb;
+  padding-left: 30px;
+  padding-right: 0px;
+  cursor: pointer;
+}
+
+.customer-box-1 {
+  background-color: rgb(233, 254, 254);
+  border-left: 3px solid rgb(57, 205, 204);
+}
+
+.icon-name {
+  margin-left: 10px;
+}
+
+.icon-name-1 {
+  color: rgb(33, 63, 125);
+}
+
+.customer-headings {
+  text-transform: uppercase;
+  padding: 0px 0px 0px 10px;
+  padding-left: 30px;
+}
+
+.brand-logo-sidebar {
+  max-width: 100px;
+  align-items: center;
+  padding-left: 30px;
+  cursor: pointer;
+  display: flex;
+  /* border: 2px solid; */
+}
+
+.union-logo {
+  max-width: 20px;
+  margin-right: 10px;
+}
+
+.logout-version {
+  padding-left: 30px;
+  border-top: 1px solid rgb(208, 208, 208);
+}
+
+.logout, .version {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .sideBar-wrapper {
     /* border: 3px solid peru; */
-    width: 200px;
+    width: 250px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.customers-box{
-    /* border: 2px solid green; */
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    color: #8496bb;
-    padding-left: 30px;
-    padding-right: 0px;
-    cursor: pointer;
-}
-.customer-box-1{
-    background-color:rgb(233, 254, 254) ;
-    border-left: 3px solid rgba(57, 205, 204, 1);
-}
-.icon-name{
-    margin-left: 10px;
-}
-.icon-name-1{
-    color:rgba(33, 63, 125, 1);
-}
-.customer-headings{
-    text-transform: uppercase;
-    padding: 0px 0px 0px 10px;
-    padding-left: 30px;
-}
-.brand-logo-sidebar{
-    max-width: 100px;
-    align-items: center;
-    padding-left: 30px;
-    cursor: pointer;
-    display: flex;
-    /* border: 2px solid; */
-}
-.union-logo{
-    max-width: 20px;
-    margin-right: 10px;
-}
-.logout-version{
-    padding-left: 30px;
-    border-top: 1px solid rgb(208, 208, 208);
-}
-.logout,.version{
-    padding: 20px 0px 20px 0px;
-    display: flex;
-    align-items: center;
-}
-@media(min-width: 768px){
-    .sideBar-wrapper{
-        /* border: 3px solid peru; */
-        width: 250px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    }
-}
+  }
+}/*# sourceMappingURL=stylesSideBar.css.map */

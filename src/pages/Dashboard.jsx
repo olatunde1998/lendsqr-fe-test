@@ -1,9 +1,7 @@
 import Content from 'components/dashboardComponent/mainContent/Content';
 import Header from 'components/navBar/Header';
 import SideBar from 'components/sideBar/SideBar';
-import "components/navBar/stylesHeader.css";
-import "components/sideBar/stylesSideBar.css";
-import "pages/stylesDashboard.css";
+import "pages/stylesDashboard.scss";
 
 const Dashboard = () => {
     return (

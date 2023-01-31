@@ -1,6 +1,6 @@
-// import React from 'react'
 import { FaBriefcase, FaCoins, FaFan, FaFileExport, FaHandHoldingUsd, FaRegChartBar, FaScroll, FaUserCog } from "react-icons/fa";
 import { MdLockOutline } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const Businesses = () => {
@@ -9,39 +9,48 @@ const Businesses = () => {
             <p className='customer-headings'>Businesses</p>
             <div className='customers-box'>
                 <FaBriefcase/>
-                <p className='icon-name'>Organization</p>
+                <Link to="/organization" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Organization</p></Link>
             </div>
             <div className='customers-box'>
                 <FaHandHoldingUsd/>
-                <p className='icon-name'>Loan Products</p>
+                <Link to="/loan-products" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Loan Products</p></Link>
             </div>
             <div className='customers-box'>
                 <MdLockOutline/>
-                <p className='icon-name'>Savings Products</p>
+                <Link to="/savings-products" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Savings Products</p></Link>
             </div>
             <div className='customers-box'>
                 <FaCoins/>
-                <p className='icon-name'>Fees and Charges</p>
+                <Link to="/fees-charges" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Fees and Charges</p></Link>
             </div>
             <div className='customers-box'>
                 <FaFileExport/>
-                <p className='icon-name'>Transactions</p>
+                <Link to="/transactions" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Transactions</p></Link>
             </div>
             <div className='customers-box'>
                 <FaFan/>
-                <p className='icon-name'>Services</p>
+                <Link to="/services" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Services</p></Link>
             </div>
             <div className='customers-box'>
                 <FaUserCog/>
-                <p className='icon-name'>Service Account</p>
+                <Link to="/service-account" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Service Account</p></Link>
             </div>
             <div className='customers-box'>
                 <FaScroll/>
-                <p className='icon-name'>Settlements</p>
+                <Link to="/settlement" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Settlements</p></Link>
             </div>
             <div className='customers-box'>
                 <FaRegChartBar/>
-                <p className='icon-name'>Reports</p>
+                <Link to="/reports" style={{textDecoration: "none", color: "#8496bb", cursor: "pointer"}}>
+                <p className='icon-name'>Reports</p></Link>
             </div>
     
         </div>

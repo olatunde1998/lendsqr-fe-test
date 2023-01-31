@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCoins, FaUsers, FaHockeyPuck } from "react-icons/fa";
 import { MdGroup } from "react-icons/md";
 

@@ -1,21 +1,15 @@
-.dashboard-wrapper{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.header-content{
-    /* border: 2px solid brown; */
+.dashboard-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (min-width: 1440px) {
-    .header-content{
-        /* border: 2px solid rgb(63, 42, 165); */
-        width: 100%;
-    }
-    .dashboard-wrapper{
-        display: flex;
-        justify-content: flex-start;
-    }
-    
+  .header-content {
+    /* border: 2px solid rgb(63, 42, 165); */
+    width: 100%;
   }
+  .dashboard-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+}/*# sourceMappingURL=stylesUserShowingFilters.css.map */

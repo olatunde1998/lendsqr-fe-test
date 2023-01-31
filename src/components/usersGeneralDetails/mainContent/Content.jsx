@@ -1,10 +1,10 @@
 import UsersProfile from "components/usersGeneralDetails/mainContent/UsersProfile";
-import "components/usersGeneralDetails/mainContent/stylesContent.css";
-import PersonalInformation from "../information/PersonalInformation";
-import EducationInformation from "../information/EducationInformation";
-import SocialInformation from "../information/SocialInformation";
-import GuarantorInformation from "../information/GuarantorInformation";
-import LastInformation from "../information/LastInformation";
+import "components/usersGeneralDetails/mainContent/stylesContent.scss";
+import PersonalInformation from "components/usersGeneralDetails/information/PersonalInformation";
+import EducationInformation from "components/usersGeneralDetails/information/EducationInformation";
+import SocialInformation from "components/usersGeneralDetails/information/SocialInformation";
+import GuarantorInformation from "components/usersGeneralDetails/information/GuarantorInformation";
+import LastInformation from "components/usersGeneralDetails/information/LastInformation";
 import { MdKeyboardBackspace } from "react-icons/md";
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,7 @@ const Content = () => {
       </Link>
 
       <div className="users-blacklist-activate">
-        <p>Users</p>
+        <p style={{fontWeight: "600", fontSize:"20px"}}>Users Details</p>
         <div className="blacklist-activate">
           <button className="button-red">BlackList user</button>
           <button className="button-green">Activate user</button>

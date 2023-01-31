@@ -1,11 +1,6 @@
-
-// import { MdGroup } from "react-icons/md";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineStarBorder, MdOutlineStarPurple500 } from "react-icons/md";
 import NavTabs from "./NavTabs";
-
-
-
 
 
 const UsersProfile = () => {
@@ -15,7 +10,6 @@ const UsersProfile = () => {
       <div className="profile-box">
         <div className="avatar-username">
           <div className="avatar-username-img">
-            {/* <img src="" alt="" /> */}
             <FiUser size={40}/>
           </div>
           <div className="username">

@@ -5,6 +5,8 @@ import { useState } from "react";
 import { auth  } from "components/LoginComponet/firebase";
 import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
+import Typed from "react-typed";
+
 
 
 const RightContainer = () => {
@@ -27,6 +29,7 @@ const RightContainer = () => {
   };
   return (
     <div className="right-container-wrapper">
+      <Typed strings={["Login with: lendsqrfrontend@gmail.com passsword: 123456789"]} typeSpeed={100} backSpeed={10} style={{color: "rgb(236, 130, 130)"}} loop />
       <div className="welcome">
         <img src="assets/img/Welcome.png" alt="" />
         <p>Enter details to login</p>

@@ -1,6 +1,8 @@
 import { HiOutlineSearch } from "react-icons/hi";
 import { FiBell } from "react-icons/fi";
 import { FiChevronDown } from "react-icons/fi";
+import "components/navBar/stylesHeader.scss";
+
 
 const Header = () => {
   return (

@@ -5,6 +5,8 @@ import SwitchOrganization from "components/sideBar/SwitchOrganization";
 import Dashboard from "components/sideBar/Dashboard";
 import { Link } from "react-router-dom";
 import { BsBoxArrowRight } from "react-icons/bs";
+import "components/sideBar/stylesSideBar.scss";
+
 
 const SideBar = ({ logout, version }) => {
   return (
@@ -25,7 +27,7 @@ const SideBar = ({ logout, version }) => {
       <Businesses />
       <Settings />
       <div className="logout-version">
-        <div className="logout"><BsBoxArrowRight style={{marginRight: "10px"}}/>{logout}</div>
+        <Link to="/" style={{textDecoration: "none", color: "rgba(33, 63, 125, 1)"}}><div className="logout"><BsBoxArrowRight style={{marginRight: "10px"}}/>{logout}</div></Link>
         <div className="version">{version}</div>
       </div>
     </div>
