@@ -20,21 +20,24 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-
 ### Analyzing the Bundle Size
 
 
 ### Making a Progressive Web App
 
 
-### Advanced Configuration
-
-
 ### Deployment
+
+
+### License
+The MIT License - Copyright (c) 2023 - Present, rasheed-olatunde-lendsqr-fe-test.netlify.app Storage Service.
+
+
+### Author
+Rasheed Olatunde
+
+
+
 
 
 
