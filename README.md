@@ -23,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ##  Site Map
 General overview of the app
-![Minion](/public/assets/img/sitemap.png)
+![Minion](/public/assets/img/sitemaps.png)
 
 
 
