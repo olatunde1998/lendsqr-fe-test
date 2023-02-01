@@ -15,7 +15,6 @@
 # Prototype
 ![Minion](/public/assets/img/authentication.png)
 ![Minion](/public/assets/img/login.png)
-![Minion](/public/assets/img/dashboard.png)
 
 
 
