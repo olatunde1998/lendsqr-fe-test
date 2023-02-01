@@ -11,6 +11,7 @@ import Typed from "react-typed";
 
 const RightContainer = () => {
   const [email, setEmail] = useState("");
+  // const [fullName, setFullName] = useState("");
   const [password, setPassword] = useState("");
   const [show, setShow] = useState(false);
   const [error, setError] = useState("");
@@ -32,7 +33,7 @@ const RightContainer = () => {
       <Typed strings={["Login with: lendsqrfrontend@gmail.com passsword: 123456789"]} typeSpeed={100} backSpeed={10} style={{color: "rgb(236, 130, 130)"}} loop />
       <div className="welcome">
         <img src="assets/img/Welcome.png" alt="" />
-        <p>Enter details to login</p>
+        <p>Enter your login details</p>
       </div>
       <form onSubmit={signIn}>
         {error}
@@ -46,6 +47,8 @@ const RightContainer = () => {
         <Link to="/forget-password" style={{textDecoration: "none"}}>
         <div className="forget-password">
           <p>Forget Password</p>
+          <p>Don't have an account? <Link to="/signup" style={{textDecoration:"none", color:"#39CDCC"}}><span className="signup-btn">Sign Up</span></Link></p>
+          
         </div>
         </Link>
         <div className="button-wrapper">

@@ -5,7 +5,7 @@ const Dashboard = () => {
     return (
         <div>
             <Link to="/dashboard" style={{textDecoration:"none"}}>
-            <div className='customers-box'>
+            <div className='customers-box customer-box-1'>
                 <FaHome/>
                 <p className='icon-name'>Dashboard</p>
             </div>

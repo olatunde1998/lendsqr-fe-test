@@ -11,7 +11,6 @@ img {
   /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
-  
 }
 
 .brand-logo {
@@ -45,7 +44,7 @@ img {
 }
 
 .welcome {
-  width: 150px;
+  width: 200px;
   margin-top: 30px;
 }
 
@@ -83,6 +82,12 @@ input {
   display: flex;
   justify-content: center;
   cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #39CDCC;
+  color: white;
+  padding: 10px;
 }
 
 button {

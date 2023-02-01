@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 
 const Customers = () => {
     
-    
   return (
     <div>
         <p className='customer-headings'>Customers</p>
         <Link to="/generalDetails" style={{textDecoration:"none", cursor:"pointer"}}>
-        <div className='customers-box customer-box-1'>
+        <div className='customers-box'>
             <FaUserFriends/>
             <p className='icon-name icon-name-1'>Users</p>
         </div>
