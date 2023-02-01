@@ -26,7 +26,7 @@ const RightContainer = () => {
   };
   return (
     <div className="right-container-wrapper">
-      <div className="welcome-reset">
+      <div className="welcome">
         <img src="assets/img/Welcome.png" alt="reset password logo" />
       </div>
       <p>Sign up an account</p>

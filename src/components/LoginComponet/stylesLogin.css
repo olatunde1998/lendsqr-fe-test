@@ -76,6 +76,7 @@ input {
   color: #39CDCC;
   cursor: pointer;
   display: flex;
+  font-size: 12px;
   justify-content: space-between;
   margin: 10px 0px 10px 0px;
 }
