@@ -13,7 +13,10 @@
  + [TypeScript](https://www.typescriptlang.org/) 
 
 # Prototype
+![Minion](/public/assets/img/authentication.png)
 ![Minion](/public/assets/img/login.png)
+![Minion](/public/assets/img/dashboard.png)
+
 
 
 # Getting Started
@@ -23,7 +26,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ##  Site Map
 General overview of the app
-![Minion](/public/assets/img/sitemaps.png)
 
 
 
