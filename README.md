@@ -15,11 +15,11 @@
  + [Github Actions](https://docs.github.com/en/actions/) 
  
 
-##  Site Map
+#  Site Map
 General overview of the app
 ![Minion](/public/assets/img/sitemap-diagram.png)
 
-### Usage
+# Usage
 steps:
 + Go to https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
 + Register as a user by clicking on Sign up button
