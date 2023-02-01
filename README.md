@@ -1,4 +1,5 @@
 # LendSqr Frontend 
+[Live link ](https://rasheed-olatunde-lendsqr-fe-test.netlify.app/) :- https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
 
 
 # Technologies 
