@@ -14,6 +14,7 @@
 
 # Prototype
 ![Minion](/public/assets/img/authentication.png)
+![Minion](/public/assets/img/login.png)
 
 
 # Getting Started
@@ -49,10 +50,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### Usage
 Go to https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
-Register as a user by clicking on Sign up button
-Login to the app
-Click on Dashboard sidebar tab to explore on all dashboard content
-Click on User sidebar tab to view User's general details page
+
+Register as a user by clicking on Sign up button\
+Login to the app\
+Click on Dashboard sidebar tab to explore on all dashboard content\
+Click on User sidebar tab to view User's general details page\
 Click on filter icon in dashboard page to view user's filter page
 
 ### Deployment
@@ -61,7 +63,6 @@ Netlify was used to deploy the app.
 
 ### License
 The MIT License - Copyright (c) 2023 - Present, rasheed-olatunde-lendsqr-fe-test.netlify.app Storage Service.
-
 
 
 ### Author
