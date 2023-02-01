@@ -25,6 +25,7 @@ import AuditLogs from 'components/blankPage/AuditLogs';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import SwitchOrganization from 'components/blankPage/SwitchOrganization';
+import SignUp from 'pages/SignUp';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path='/usersFilters' element={<UsersShowingFilters/>}/>
         <Route path='/generalDetails' element={<UsersGeneralDetails/>}/>
         <Route path='/forget-password' element={<ForgetPassword/>}/>
+        <Route path='/signup' element={<SignUp/>}/>
         <Route path='/guarantors' element={<Guarantors/>}/>
         <Route path='/loans' element={<Loans/>}/>
         <Route path='/decision-models' element={<DecisionModels/>}/>
