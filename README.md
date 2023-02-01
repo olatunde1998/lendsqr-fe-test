@@ -26,6 +26,7 @@ General overview of the app
 ![Minion](/public/assets/img/sitemap.png)
 
 
+
 ##  How to Contribute
 
 Clone the repository
