@@ -12,20 +12,19 @@
  + [SCSS](https://sass-lang.com/documentation/syntax) 
  + [TypeScript](https://www.typescriptlang.org/) 
 
+##  Site Map
+General overview of the app
+![Minion](/public/assets/img/sitemap-diagram.png)
+
+
 # Prototype
 ![Minion](/public/assets/img/authentication.png)
 ![Minion](/public/assets/img/login.png)
 
 
-
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
-##  Site Map
-General overview of the app
-
 
 
 ##  How to Contribute
@@ -52,13 +51,13 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 ### Usage
-Go to https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
-
-Register as a user by clicking on Sign up button\
-Login to the app\
-Click on Dashboard sidebar tab to explore on all dashboard content\
-Click on User sidebar tab to view User's general details page\
-Click on filter icon in dashboard page to view user's filter page
+steps:\
++ Go to https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
++ Register as a user by clicking on Sign up button\
++ Login to the app\
++ Click on Dashboard sidebar tab to explore on all dashboard content\
++ Click on User sidebar tab to view User's general details page\
++ Click on filter icon in dashboard page to view user's filter page
 
 ### Deployment
 Netlify was used to deploy the app.
