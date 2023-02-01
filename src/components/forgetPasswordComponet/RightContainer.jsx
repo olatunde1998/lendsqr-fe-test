@@ -46,7 +46,7 @@ const RightContainer = () => {
           <span className="show-wrapper" onClick={() => setShow(!show)}>show</span>
         </div>
         <div className="forget-password">
-          <p>Already have account?</p><Link to="/" style={{textDecoration:"none", color:"#39CDCC"}}><span className="login-btn">Login</span></Link>
+          <p>Already have account? <Link to="/" style={{textDecoration:"none", color:"#39CDCC"}}><span className="login-btn">Login</span></Link></p>
         </div>
         <div className="button-wrapper">
           <button type="submit">Reset Password</button>

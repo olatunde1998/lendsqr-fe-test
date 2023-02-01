@@ -72,9 +72,12 @@ input {
   color: #39CDCC;
 }
 
-.forget-password {
+.dont-get-password {
   color: #39CDCC;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px;
 }
 
 .button-wrapper {
