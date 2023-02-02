@@ -1,18 +1,28 @@
 # LendSqr Frontend 
-[Live link ](https://rasheed-olatunde-lendsqr-fe-test.netlify.app/) :- https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
+Hello, I'm Rasheed
+Just want to say a big thank you for the grace and opportunity to be among the 
+selected candidate for the challenge assessment.
+Here's some notes about my submission:
+
+1. A link to the project repository:-  https://github.com/olatunde1998/lendsqr-fe-test
+2.  A publicly live hosted URL of the challenge https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
+
+Thank you very much for your patience and please let me know if there's anything I need to add or forgot to do.
+Best regards
+Rasheed Olatunde
 
 
 # Technologies 
  + [JavaScript](https://www.javascript.io) 
  + [ReactJs](https://www.reactjs.org/)
+ + [SCSS](https://sass-lang.com/documentation/syntax)
+ + [TypeScript](https://www.typescriptlang.org/) 
  + [Firebase](https://firebase.google.com/)
  + [React-icons](https://react-icons.github.io/react-icons/) 
  + [React-typed](https://www.npmjs.com/package/react-typed)
  + [Axios](https://axios-http.com/docs/intro/)
  + [React Absolute import](https://medium.com/geekculture/making-life-easier-with-absolute-imports-react-in-javascript-and-typescript-bbdab8a8a3a1) 
  + [React Router](https://reactrouter.com/en/main) 
- + [SCSS](https://sass-lang.com/documentation/syntax) 
- + [TypeScript](https://www.typescriptlang.org/) 
  + [Github Actions](https://docs.github.com/en/actions/) 
  
 
@@ -33,14 +43,7 @@ steps:
 ![Minion](/public/assets/img/authentication.png)
 ![Minion](/public/assets/img/login.png)
 
-
-# Getting Started
-
-This project was created with [Create React App](https://github.com/facebook/create-react-app).
-
-
-##  How to Contribute
-
+#  How to Contribute
 Clone the repository
 $ git clone https://github.com/olatunde1998/lendsqr-fe-test.git
 
