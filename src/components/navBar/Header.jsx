@@ -6,6 +6,7 @@ import "components/navBar/stylesHeader.scss";
 
 const Header = () => {
   return (
+    <div className="header-box">
     <div className="header-wrapper">
       <div className="search-wrapper">
         <input className="input-element" type="text" placeholder="Search for anything" />
@@ -20,14 +21,16 @@ const Header = () => {
           <FiBell />
           </div>
         </div>
+        
+        <div className="user-name-dropdown">
         <div className="avatar-wrapper">
           <img className="avatar-img" src="assets/img/avatar-img.png" alt="" />
         </div>
-        <div className="user-name-dropdown">
           <p className="ayodeji">Ayodeji</p>
           <FiChevronDown />
         </div>
       </div>
+    </div>
     </div>
   );
 };

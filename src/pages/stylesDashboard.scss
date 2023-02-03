@@ -1,17 +1,21 @@
-.dashboard-wrapper{
+.dashboard-box{
     display: flex;
-    justify-content: space-between;
-
 }
-
-@media (min-width: 1440px) {
-    .header-content{
-        /* border: 2px solid rgb(63, 42, 165); */
-        width: 100%;
-    }
-    .dashboard-wrapper{
+@media (min-width: 768px) {
+    
+    .dashboard-box{
         display: flex;
-        justify-content: flex-start;
     }
     
   }
+@media (min-width: 1024px) {
+    .header-content{
+        // border: 2px solid rgb(63, 42, 165); 
+        // width: 100%;
+    }
+    .dashboard-box{
+        display: flex;
+    }
+    
+  }
+  

@@ -3,8 +3,8 @@ body{
 }
 .sideBar-wrapper{
     padding-top: 40px;
-    /* border: 3px solid peru; */
-    width: 200px;
+    // border: 3px solid peru; 
+    width: 130px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .customers-box{
@@ -13,7 +13,7 @@ body{
     align-items: center;
     padding: 10px;
     color: #8496bb;
-    padding-left: 30px;
+    // padding-left: 30px;
     padding-right: 0px;
     cursor: pointer;
 }
@@ -30,12 +30,12 @@ body{
 .customer-headings{
     text-transform: uppercase;
     padding: 0px 0px 0px 10px;
-    padding-left: 30px;
+    // padding-left: 30px;
 }
 .brand-logo-sidebar{
     max-width: 100px;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 10px;
     cursor: pointer;
     display: flex;
     /* border: 2px solid; */
@@ -54,9 +54,23 @@ body{
     align-items: center;
 }
 @media(min-width: 768px){
+    
+    .sideBar-wrapper{
+        padding-top: 40px;
+        width: 150px;
+        display: block;
+    }
+    .customers-box,.brand-logo-sidebar,.customer-headings{
+        padding-left: 30px;
+    }
+}
+@media(min-width: 1024px){
     .sideBar-wrapper{
         /* border: 3px solid peru; */
         width: 250px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .sideBar-wrapper{
+        display: block;
     }
 }

@@ -2,8 +2,13 @@ import Content from 'components/usersGeneralDetails/mainContent/Content';
 import Header from 'components/navBar/Header';
 import SideBar from 'components/sideBar/SideBar';
 import "pages/stylesUsersGenDetails.scss";
+// import { useEffect, useState } from 'react';
+// import { useParams } from 'react-router-dom';
+// import { APIRequest } from "utils/APIRequest";
+
 
 const UsersGeneralDetails = () => {
+ 
   return (
     <div className="dashboard-wrapper">
       <div>

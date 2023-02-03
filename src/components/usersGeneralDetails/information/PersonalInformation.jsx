@@ -1,20 +1,29 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
 import "components/usersGeneralDetails/information/stylesInformation.scss";
-// import { BsThreeDotsVertical } from "react-icons/bs";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { APIRequest } from "utils/APIRequest";
 
-const PersonalInformation = () => {
-  const baseURL =
-    "https://6270020422c706a0ae70b72c.mockapi.io/lendsqr/api/v1/users";
-  const [posts, setPosts] = useState([]);
+const PersonalInformation = (props) => {
+  
+  // let data = localStorage.getItem("grace_effiom");
+  // data = JSON.parse(data);
+  // console.log(data);
 
-  useEffect(() => {
-    axios.get(baseURL).then((response) => {
-      setPosts(response.data);
-    });
-  }, []);
+  const { id } = useParams();
+  const [userDetail, setUserDetail] = useState({});
 
-  console.log(posts);
+  useEffect( () => {
+    const fetchUserDetail = async (userId) => {
+      try {
+        const {data}  = await APIRequest.get(`/users/${userId}`);
+        setUserDetail(data);
+      } catch (error) {
+        console.log("An error occurred", error);
+      }
+    };
+    fetchUserDetail(id)
+
+  }, [id]);
 
   return (
     <div className="personal-information-wrapper">
@@ -22,63 +31,67 @@ const PersonalInformation = () => {
       <div className="row-box">
         <div>
           <span className="row-1">
-            <p className="un-filled">Full Name</p>
-            <p className="filled">Grace Effiom</p>
+            <p className="un-filled">FULL NAME</p>
+            <p className="filled">
+              {/* {data.personalinformation.full_name} */}
+              {userDetail.profile.firstName}
+            </p>
           </span>
           <span>
-            <p className="un-filled">Marital Status</p>
-            <p className="filled">Single</p>
+            <p className="un-filled">MARITAL STATUS</p>
+            <p className="filled">
+              {/* {data.personalinformation.marital_status} */}
+              </p>
           </span>
         </div>
         <div>
           <span className="row-1">
-            <p className="un-filled">Phone Number</p>
-            <p className="filled">07034568975</p>
+            <p className="un-filled">PHONE NUMBER</p>
+            <p className="filled">
+              {/* {data.personalinformation.phone_number} */}
+              {/* {userDetail.profile.phoneNumber} */}
+              </p>
           </span>
           <span>
-            <p className="un-filled">Children</p>
-            <p className="filled">None</p>
+            <p className="un-filled">CHILDREN</p>
+            <p className="filled">
+              {/* {data.personalinformation.children} */}
+              </p>
           </span>
         </div>
         <div>
           <span className="row-1">
-            <p className="un-filled">Email Address</p>
-            <p className="filled">grace@gmail.com</p>
+            <p className="un-filled">EMAIL ADDRESS</p>
+            <p className="filled">
+              {/* {data.personalinformation.email} */}
+              </p>
           </span>
           <span>
-            <p className="un-filled">Type of Residence</p>
-            <p className="filled">Parent's Apartment</p>
+            <p className="un-filled">TYPE OF RESIDENCE</p>
+            <p className="filled">
+              {/* {data.personalinformation.residence} */}
+              </p>
           </span>
         </div>
         <span className="row-1">
           <p className="un-filled">BVN</p>
-          <p className="filled">05983672827282</p>
+          <p className="filled">
+            {/* {data.personalinformation.bvn} */}
+            {/* {userDetail.profile.bvn} */}
+            </p>
         </span>
         <span className="row-1">
-          <p className="un-filled">Gender</p>
-          <p className="filled">Female</p>
+          <p className="un-filled">GENDER</p>
+          <p className="filled">
+            {/* {data.personalinformation.gender} */}
+            {/* {userDetail.profile.gender} */}
+            </p>
         </span>
       </div>
 
       <div></div>
     </div>
 
-    // <div className='userinfo-container'>
-    //   {posts.map((post,id)=>(
-
-    //   <li key={id} className='items-box'>
-    //     <span className='items-orgName'>{post.orgName}</span>
-    //     <span className='items-userName'>{post.userName}</span>
-    //     <span className='items-email'>{post.email}</span>
-    //     <span className='items-number'>{post.phoneNumber}</span>
-    //     <span className='items-date'>{post.lastActiveDate}</span>
-    //     <span className='dot-name'>
-    //     <p className='items-status'>{post.orgName}</p>
-    //     <BsThreeDotsVertical/>
-    //     </span>
-    //   </li>
-    //   ))}
-    // </div>
   );
 };
 

@@ -3,6 +3,47 @@ import { FaHandHoldingUsd, FaHandshake, FaUserCheck, FaUserFriends, FaUsers, FaU
 import { Link } from "react-router-dom";
 
 const Customers = () => {
+    // const setPersonalData = () => {
+    //     let graceData = {
+    //       personalinformation: {
+    //         full_name: "Grace Effiom",
+    //         phone_number: "07036786589",
+    //         email: "grace@gmail.com",
+    //         bvn: "05983672827282",
+    //         gender: "Female",
+    //         marital_status: "Single",
+    //         children: "none",
+    //         residence: "Parent's applicant",
+    //       },
+    //       education: {
+    //         level: "B.sc",
+    //         employment_status: "Employed",
+    //         sector_employment: "FinTech",
+    //         duration_employment: "2years",
+    //         office_email: "grace@lendsqr.com",
+    //         monthly_income: "#200000.00 - #4000000.00",
+    //         loan: "40,000",
+    //       },
+    //       socials: {
+    //         twitter: "@grace_effiom",
+    //         facebook: "Grace Effiom",
+    //         instagram: "@grace_effiom",
+    //       },
+    //       guarantor: {
+    //         full_name: "Debby Ogana",
+    //         phone_number: "07060780922",
+    //         email: "debby@gmail.com",
+    //         relationship: "Sisters",
+    //       },
+    //       guarantorTwo: {
+    //         full_name: "Debby Ogana",
+    //         phone_number: "07060780922",
+    //         email: "debby@gmail.com",
+    //         relationship: "Sisters",
+    //       },
+    //   };
+    //     localStorage.setItem("grace_effiom", JSON.stringify(graceData));
+    //   };
     
   return (
     <div>

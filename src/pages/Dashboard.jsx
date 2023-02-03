@@ -5,7 +5,7 @@ import "pages/stylesDashboard.scss";
 
 const Dashboard = () => {
     return (
-        <div className="dashboard-wrapper">
+        <div className='dashboard-box'>
           <div>
             <SideBar/>
           </div>

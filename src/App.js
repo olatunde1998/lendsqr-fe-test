@@ -26,6 +26,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import SwitchOrganization from 'components/blankPage/SwitchOrganization';
 import SignUp from 'pages/SignUp';
+// import UserDetails from 'pages/UserDetails';
 
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/usersFilters' element={<UsersShowingFilters/>}/>
         <Route path='/generalDetails' element={<UsersGeneralDetails/>}/>
+        {/* <Route path='/generalDetails/:id' element={<UsersGeneralDetails/>}/> */}
+        {/* <Route path='/generalDetails/:id' element={<UserDetails/>}/> */}
         <Route path='/forget-password' element={<ForgetPassword/>}/>
         <Route path='/signup' element={<SignUp/>}/>
         <Route path='/guarantors' element={<Guarantors/>}/>

@@ -27,7 +27,7 @@ const Content = () => {
       </div>
       <UsersProfile />
       <div className="content-information-wrapper">
-        <PersonalInformation />
+        <PersonalInformation/>
         <EducationInformation />
         <SocialInformation />
         <GuarantorInformation />

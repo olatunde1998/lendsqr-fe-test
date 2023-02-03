@@ -23,8 +23,6 @@ const UsersInfo = () => {
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
 
-  console.log(posts);
-
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
@@ -134,6 +132,7 @@ const UsersInfo = () => {
           <div className="userinfo-container">
             {currentPosts.map((post, id) => (
               <li key={id} className="items-box">
+                <Link style={{ display: "flex", textDecoration: "none"}} to={`/generalDetails/${post.id}`}>
                 <span className="items-orgName">{post.orgName}</span>
                 <span className="items-userName">{post.userName}</span>
                 <span className="items-email">{post.email}</span>
@@ -145,6 +144,7 @@ const UsersInfo = () => {
                     <BsThreeDotsVertical size={20} />
                   </span>
                 </span>
+                </Link>
               </li>
             ))}
           </div>

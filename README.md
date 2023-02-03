@@ -1,5 +1,5 @@
 # LendSqr Frontend 
-Hello, I'm Rasheed
+Hello, I'm Rasheed\
 Just want to say a big thank you for the grace and opportunity to be among the 
 selected candidate for the challenge assessment.
 Here's some notes about my submission:
@@ -7,13 +7,13 @@ Here's some notes about my submission:
 1. A link to the project repository:-  https://github.com/olatunde1998/lendsqr-fe-test
 2.  A publicly live hosted URL of the challenge https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
 
-Thank you very much for your patience and please let me know if there's anything I need to add or forgot to do.
-Best regards
+Thank you very much for your patience and please let me know if there's anything I need to add or forgot to do.\
+Best regards\
 Rasheed Olatunde
 
 
 # Technologies 
- + [JavaScript](https://www.javascript.io) 
+ + [JavaScript](https://javascript.info/) 
  + [ReactJs](https://www.reactjs.org/)
  + [SCSS](https://sass-lang.com/documentation/syntax)
  + [TypeScript](https://www.typescriptlang.org/) 
@@ -31,7 +31,7 @@ General overview of the app
 ![Minion](/public/assets/img/sitemap-diagram.png)
 
 # Usage
-steps:
+Steps:
 + Go to https://rasheed-olatunde-lendsqr-fe-test.netlify.app/
 + Register as a user by clicking on Sign up button
 + Login to the app
@@ -44,34 +44,30 @@ steps:
 ![Minion](/public/assets/img/login.png)
 
 #  How to Contribute
-Clone the repository
+
+1. Clone the repository 
 $ git clone https://github.com/olatunde1998/lendsqr-fe-test.git
 
-Change directory into the cloned folder and run the setup script
+2. Change directory into the cloned folder and run the setup script
 $ cd lendsqr-fe-test 
 
-
-### `yarn start`
-Runs the app in the development mode.\
+3. Open your terminal and type this command `yarn start` to run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-### `yarn test`
+# yarn test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+1. Open your terminal and type this command `yarn test` to Launches the test runner in the interactive watch mode.\
 
 ### Deployment
-Netlify was used to deploy the app.
+Netlify was used to deploy the app. 
  + [Netlify](https://app.netlify.com/sites/rasheed-olatunde-lendsqr-fe-test/overview)
 
 ### License
 The MIT License - Copyright (c) 2023 - Present, rasheed-olatunde-lendsqr-fe-test.netlify.app Storage Service.
-
 
 ### Author
 Rasheed Olatunde
