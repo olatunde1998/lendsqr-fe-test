@@ -58,7 +58,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-# yarn test
+### yarn test
 
 1. Open your terminal and type this command `yarn test` to Launches the test runner in the interactive watch mode.\
 
