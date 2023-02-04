@@ -12,6 +12,10 @@ export function getFromLocalStorage(key){
     if(typeof window !== "undefined") {
         return window.localStorage.getItem(key)
     }
-    return "";
+    return null;
 
 }
+
+export const isObjectEmpty = (objectName) => {
+    return Object.keys(objectName).length === 0
+  }
