@@ -1,17 +1,15 @@
-import { FaHome } from 'react-icons/fa'
-import { Link } from 'react-router-dom';
+import { FaHome } from "react-icons/fa";
 
 const Dashboard = () => {
-    return (
-        <div>
-            <Link to="/dashboard" style={{textDecoration:"none"}}>
-            <div className='customers-box customer-box-1'>
-                <FaHome/>
-                <p className='icon-name'>Dashboard</p>
-            </div>
-            </Link>
+  return (
+    <div>
+      
+        <div className="customers-box">
+          <FaHome />
+          <p className="icon-name">Dashboard</p>
         </div>
-      )
-}
+    </div>
+  );
+};
 
 export default Dashboard;
