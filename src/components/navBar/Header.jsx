@@ -4,7 +4,7 @@ import { FiChevronDown } from "react-icons/fi";
 import "components/navBar/stylesHeader.scss";
 
 
-const Header = () => {
+const Header = ({user}) => {
   return (
     <div className="header-wrapper">
       <div className="search-wrapper">
@@ -21,10 +21,10 @@ const Header = () => {
           </div>
         </div>
         <div className="avatar-wrapper">
-          <img className="avatar-img" src="assets/img/avatar-img.png" alt="" />
+          <img className="avatar-img" src="" alt="" />
         </div>
         <div className="user-name-dropdown">
-          <p className="ayodeji">Ayodeji</p>
+          <p className="ayodeji">{user?user.userName: "Anonymous"}</p>
           <FiChevronDown />
         </div>
       </div>

@@ -1,20 +1,19 @@
-import { FiUser } from "react-icons/fi";
-import { MdOutlineStarBorder, MdOutlineStarPurple500 } from "react-icons/md";
+import {  MdOutlineStarBorder, MdOutlineStarPurple500 } from "react-icons/md";
 import NavTabs from "./NavTabs";
 
 
-const UsersProfile = () => {
+const UsersProfile = ({user}) => {
   
   return (
     <div className="usersProfile-wrapper">
       <div className="profile-box">
         <div className="avatar-username">
           <div className="avatar-username-img">
-            <FiUser size={40}/>
+            <img className="user-avatar" src={user?.profile.avatar} alt="User Avatar" />
           </div>
           <div className="username">
-            <p className="user-fullname">Grace Effiom</p>
-            <p>LSQFf587g90</p>
+            <p className="user-fullname">{user?.profile.firstName} {user?.profile.lastName}</p>
+            <p>{user.userName}</p>
           </div>
         </div>
 
@@ -28,18 +27,12 @@ const UsersProfile = () => {
           </div>
         </div>
         <div className="account-naira">
-          <p className="account-amount"> <span>N</span>200,000.00</p>
-          <p>9912345678/Providus Bank</p>
+          <p className="account-amount"> <span>N</span>{user?.accountBalance}</p>
+          <p>{user?.accountNumber}/Providus Bank</p>
         </div>
 
       </div>
       <div className="profile-list-link">
-        {/* <span className="profile-list profile-list-1">General Details</span>
-        <span className="profile-list">Documents</span>
-        <span className="profile-list">Bank Details</span>
-        <span className="profile-list">Loans</span>
-        <span className="profile-list">Savings</span>
-        <span className="profile-list">App and System</span> */}
         <NavTabs/>
       </div>
             

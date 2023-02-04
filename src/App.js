@@ -33,9 +33,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Login/>}/>
-        <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/users' element={<Dashboard/>}/>
         <Route path='/usersFilters' element={<UsersShowingFilters/>}/>
-        <Route path='/generalDetails' element={<UsersGeneralDetails/>}/>
+        {/* <Route path='/generalDetails' element={<UsersGeneralDetails/>}/> */}
+        <Route path='/users/:id' element={<UsersGeneralDetails/>}/>
         <Route path='/forget-password' element={<ForgetPassword/>}/>
         <Route path='/signup' element={<SignUp/>}/>
         <Route path='/guarantors' element={<Guarantors/>}/>
@@ -58,7 +59,6 @@ function App() {
         <Route path='/fees-pricing' element={<FeesAndPricing/>}/>
         <Route path='/audit-logs' element={<AuditLogs/>}/>
         <Route path='/switch-org' element={<SwitchOrganization/>}/>
-
       </Routes>
     </div>
   );

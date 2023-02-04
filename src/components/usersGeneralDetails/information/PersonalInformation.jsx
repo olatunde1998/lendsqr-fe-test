@@ -1,21 +1,6 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
 import "components/usersGeneralDetails/information/stylesInformation.scss";
-// import { BsThreeDotsVertical } from "react-icons/bs";
 
-const PersonalInformation = () => {
-  const baseURL =
-    "https://6270020422c706a0ae70b72c.mockapi.io/lendsqr/api/v1/users";
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    axios.get(baseURL).then((response) => {
-      setPosts(response.data);
-    });
-  }, []);
-
-  console.log(posts);
-
+const PersonalInformation = ({ user }) => {
   return (
     <div className="personal-information-wrapper">
       <p className="personal-info">Personal Information</p>
@@ -23,7 +8,9 @@ const PersonalInformation = () => {
         <div>
           <span className="row-1">
             <p className="un-filled">Full Name</p>
-            <p className="filled">Grace Effiom</p>
+            <p className="filled">
+              {user?.profile.firstName} {user?.profile.lastName}
+            </p>
           </span>
           <span>
             <p className="un-filled">Marital Status</p>
@@ -33,7 +20,7 @@ const PersonalInformation = () => {
         <div>
           <span className="row-1">
             <p className="un-filled">Phone Number</p>
-            <p className="filled">07034568975</p>
+            <p className="filled">{user.profile.phoneNumber}</p>
           </span>
           <span>
             <p className="un-filled">Children</p>
@@ -43,42 +30,25 @@ const PersonalInformation = () => {
         <div>
           <span className="row-1">
             <p className="un-filled">Email Address</p>
-            <p className="filled">grace@gmail.com</p>
+            <p className="filled">{user.email}</p>
           </span>
           <span>
             <p className="un-filled">Type of Residence</p>
-            <p className="filled">Parent's Apartment</p>
+            <p className="filled">{user.profile.address}</p>
           </span>
         </div>
         <span className="row-1">
           <p className="un-filled">BVN</p>
-          <p className="filled">05983672827282</p>
+          <p className="filled">{user?.profile.bvn}</p>
         </span>
         <span className="row-1">
           <p className="un-filled">Gender</p>
-          <p className="filled">Female</p>
+          <p className="filled">{user.profile.gender}</p>
         </span>
       </div>
 
       <div></div>
     </div>
-
-    // <div className='userinfo-container'>
-    //   {posts.map((post,id)=>(
-
-    //   <li key={id} className='items-box'>
-    //     <span className='items-orgName'>{post.orgName}</span>
-    //     <span className='items-userName'>{post.userName}</span>
-    //     <span className='items-email'>{post.email}</span>
-    //     <span className='items-number'>{post.phoneNumber}</span>
-    //     <span className='items-date'>{post.lastActiveDate}</span>
-    //     <span className='dot-name'>
-    //     <p className='items-status'>{post.orgName}</p>
-    //     <BsThreeDotsVertical/>
-    //     </span>
-    //   </li>
-    //   ))}
-    // </div>
   );
 };
 
