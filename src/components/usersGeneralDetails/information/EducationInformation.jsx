@@ -1,84 +1,48 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
 import "components/usersGeneralDetails/information/stylesInformation.scss";
-// import { BsThreeDotsVertical } from "react-icons/bs";
 
-const EducationInformation = () => {
-  const baseURL =
-    "https://6270020422c706a0ae70b72c.mockapi.io/lendsqr/api/v1/users";
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    axios.get(baseURL).then((response) => {
-      setPosts(response.data);
-    });
-  }, []);
-
-  console.log(posts);
-
+const EducationInformation = ({ user }) => {
   return (
     <div className="personal-information-wrapper">
       <p className="personal-info">Education and Employment</p>
       <div className="row-box">
         <div>
           <span className="row-1">
-            <p className="un-filled">Level of Education</p>
-            <p className="filled">B.sc</p>
+            <p className="un-filled">LEVEL OF EDUCATION</p>
+            <p className="filled">{user.education.level}</p>
           </span>
           <span>
             <p className="un-filled">Official Email</p>
-            <p className="filled">grace@ledsqr.com</p>
+            <p className="filled">{user.education.officeEmail}</p>
           </span>
         </div>
         <div>
           <span className="row-1">
-            <p className="un-filled">Employment Status</p>
-            <p className="filled">Employed</p>
+            <p className="un-filled">EMPLOYMENT STATUS</p>
+            <p className="filled">{user.education.employmentStatus}</p>
           </span>
           <span>
-            <p className="un-filled">Monthly Income</p>
-            <p className="filled">#200,000.00 - #400,000.00</p>
+            <p className="un-filled">MONTHLY INCOME</p>
+            <p className="filled"><span style={{textDecoration: "line-through double"}}>N</span>{user.education.monthlyIncome[1]}-<span style={{textDecoration: "line-through double"}}>N</span>{user.education.monthlyIncome[0]} </p>
           </span>
         </div>
         <div>
           <span className="row-1">
-            <p className="un-filled">Email Address</p>
-            <p className="filled">grace@gmail.com</p>
+            <p className="un-filled">SECTOR OF EMPLOYMENT</p>
+            <p className="filled">{user.education.sector}</p>
           </span>
           <span>
-            <p className="un-filled">Type of Residence</p>
-            <p className="filled">Parent's Apartment</p>
+            <p className="un-filled">LOAN REPAYMENT</p>
+            <p className="filled">{user.education.loanRepayment}</p>
           </span>
         </div>
         <span className="row-1">
-          <p className="un-filled">BVN</p>
-          <p className="filled">05983672827282</p>
-        </span>
-        <span className="row-1">
-          <p className="un-filled">Gender</p>
-          <p className="filled">Female</p>
+          <p className="un-filled">DURATION OF EMPLOYMENT</p>
+          <p className="filled">{user.education.duration}</p>
         </span>
       </div>
 
       <div></div>
     </div>
-
-    // <div className='userinfo-container'>
-    //   {posts.map((post,id)=>(
-
-    //   <li key={id} className='items-box'>
-    //     <span className='items-orgName'>{post.orgName}</span>
-    //     <span className='items-userName'>{post.userName}</span>
-    //     <span className='items-email'>{post.email}</span>
-    //     <span className='items-number'>{post.phoneNumber}</span>
-    //     <span className='items-date'>{post.lastActiveDate}</span>
-    //     <span className='dot-name'>
-    //     <p className='items-status'>{post.orgName}</p>
-    //     <BsThreeDotsVertical/>
-    //     </span>
-    //   </li>
-    //   ))}
-    // </div>
   );
 };
 
