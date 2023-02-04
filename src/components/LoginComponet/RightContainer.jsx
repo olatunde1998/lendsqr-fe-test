@@ -22,7 +22,7 @@ const RightContainer = () => {
     e.preventDefault();
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
-        navigate("/dashboard");
+        navigate("/users");
       })
       .catch((error) => {
         setError(<p style={{color:"red"}}>Invalid Email / Password</p>);
