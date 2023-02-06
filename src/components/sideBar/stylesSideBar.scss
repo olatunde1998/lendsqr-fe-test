@@ -38,11 +38,17 @@ body{
     padding-left: 30px;
     cursor: pointer;
     display: flex;
-    /* border: 2px solid; */
+    // border: 2px solid green;
+    padding: 12px; 
+    margin-left: 30px;
+}
+.lendsqr-logo{
+    // border: 1px solid blue;
 }
 .union-logo{
     max-width: 20px;
     margin-right: 10px;
+    // border: 1px solid red;
 }
 .logout-version{
     padding-left: 30px;
