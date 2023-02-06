@@ -39,7 +39,7 @@ const UsersGeneralDetails = () => {
       <div className="header-content">
         {!isObjectEmpty(user)? 
         <>
-          <Header/>
+          <Header user={user}/>
           <Content user={user}/>
         </>
         : <div style={{display: "flex", alignItems: "center", justifyContent: "center", height: "100vh"}}>
