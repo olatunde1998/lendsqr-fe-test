@@ -1,5 +1,5 @@
 .content-wrapper {
-  /* border: 1px solid rgb(152, 234, 28); */
+  // border: 1px solid rgb(152, 234, 28);
   padding-left: 40px;
   padding-right: 40px;
   max-width: 768px;
@@ -7,10 +7,10 @@
 .content-userdetail-wrapper {
   overflow-y: auto;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  /* border: 2px solid red; */
+  // border: 2px solid red; 
   margin-top: 40px;
   width: 100%;
-  height: 1100px;
+  padding: 20px 0px;
 }
 .usersRate-wrapper {
   /* border: 2px solid blue; */
@@ -53,7 +53,7 @@
   margin-top: 3px;
   margin-bottom: 3px;
   cursor: pointer;
-  /* border: 4px solid rgb(96, 71, 146); */
+  // border: 4px solid rgb(96, 71, 146);
   display: flex;
   justify-content: space-between;
 }
@@ -82,7 +82,7 @@ tbody{
   flex-wrap: wrap;
   padding-left: 18px;
   padding-right: 24px;
-  /* border:2px solid green; */
+  // border:2px solid green; 
 }
 .items-box {
   border-bottom: 0.7px solid rgb(201, 201, 201);
@@ -92,25 +92,15 @@ tbody{
 .items-orgName,
 .items-userName,
 .items-email,
-.items-status,
 .items-number,
 .items-date {
   font-size: 14px;
-  /* border: 1px solid blue; */
   display: flex;
   align-items: center;
   padding: 4px;
   text-align: center;
   width: 250px;
   margin-right: 10px;
-}
-.items-status {
-  background-color: #f8efd2;
-  margin-right: 0px;
-  padding: 20px;
-  /* border: 2px solid red; */
-  border-radius: 20px;
-
 }
 .dot-name {
   display: flex;
@@ -138,7 +128,7 @@ tbody{
 .number-button{
 padding: 10px;
 list-style-type: none; 
-/* border: 1px solid rgb(198, 41, 41); */
+// border: 1px solid rgb(198, 41, 41); 
 width:20px;
 cursor: pointer;
 }
@@ -147,15 +137,15 @@ cursor: pointer;
   color: white;
 }
 .form-element{
-  /* border: 2px solid red; */
+  // border: 2px solid red; 
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   max-width: 350px;
   position: relative;
-  top: -920px;
+  top: -680px;
   left: 20px;
   background-color: #fcfcfc;
   color:  #213f7d;
-  padding: 30px 20px 20px 15px;
+  padding: 10px 20px 0px 15px;
 }
 .form-organization-box,.form-username-box,
 .form-email-box,.form-date-box,.form-phoneNumber-box,
@@ -184,7 +174,7 @@ cursor: pointer;
 }
 .form-buttons-box{
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 2px;
 }
 .button-2,.button-1{
   margin-left: 10px;

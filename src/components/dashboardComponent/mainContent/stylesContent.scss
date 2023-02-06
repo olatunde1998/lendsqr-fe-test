@@ -1,3 +1,5 @@
+
+
 .content-wrapper {
   /* border: 1px solid rgb(152, 234, 28); */
   padding-left: 40px;
@@ -5,9 +7,11 @@
 }
 .content-userdetail-wrapper {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  /* border: 2px solid red; */
-  margin-top: 40px;
   width: 100%;
+  padding: 20px 0px;
+  margin-top: 40px;
+
+
 }
 .usersRate-wrapper {
   /* border: 2px solid blue; */
@@ -90,7 +94,6 @@ tbody{
 .items-orgName,
 .items-userName,
 .items-email,
-.items-status,
 .items-number,
 .items-date {
   font-size: 14px;
@@ -103,11 +106,26 @@ tbody{
   margin-right: 10px;
 }
 .items-status {
-  background-color: #f8efd2;
+  border-radius:100px;
+  display: inline-block;
   margin-right: 0px;
-  padding: 20px;
+  // background-color: greenyellow;
+  padding: .5rem 1rem;
+
   /* border: 2px solid red; */
-  border-radius: 20px;
+}
+.Active {
+  background-color: rgba(57, 205, 98, 0.06);
+  color: rgba(57, 205, 98, 1);
+  ;
+
+
+}
+.Inactive {
+  background-color: rgba(84, 95, 125, 0.06);
+  color: rgba(84, 95, 125, 1);
+
+
 
 }
 .dot-name {
