@@ -3,7 +3,6 @@
   margin-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  /* max-width: 1024px; */
 }
 .back-arrow{
   display: flex;
@@ -132,20 +131,17 @@
   .content-wrapper {
     padding-left: 20px;
     padding-right: 20px;
-    /* max-width: 1024px; */
   } 
   .avatar-username-img{
     background-color: rgba(232, 229, 229, 0.879);
     border-radius: 50px;
     width: 90px;
-    /* border: 2px solid rebeccapurple; */
   }
 }
 @media (min-width: 1440px) {
   .content-wrapper {
     padding-left: 40px;
     padding-right: 40px;
-    /* max-width: 1024px; */
     margin-left: auto;
     margin-right: auto; 
     width: 1440px;

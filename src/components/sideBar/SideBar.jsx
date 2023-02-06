@@ -8,16 +8,16 @@ import { BsBoxArrowRight } from "react-icons/bs";
 import "components/sideBar/stylesSideBar.scss";
 
 
-const SideBar = ({ logout, version }) => {
+const SideBar = ({logout, version }) => {
   return (
     <div className="sideBar-wrapper">
       <Link to="/">
         <div className="brand-logo-sidebar">
           <div className="union-logo">
-            <img src="assets/img/Union.png" alt="" />
+            <img src="/assets/img/Union.png" alt="lendsqr union brand logo" />
           </div>
           <div className="lendsqr-logo">
-            <img src="assets/img/lendsqr.png" alt="" />
+            <img src="/assets/img/lendsqr.png" alt=" lendsqr brand logo" />
           </div>
         </div>
       </Link>
