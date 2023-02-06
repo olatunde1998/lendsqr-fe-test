@@ -2,7 +2,6 @@ img {
   width: 100%;
   height: auto;
 }
-
 .header-wrapper {
   display: flex;
   width: 100%;
@@ -11,35 +10,29 @@ img {
   padding: 20px 20px 20px 40px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
 .brand-logo {
   /* border: 2px solid red; */
   display: flex;
 }
-
 .brand-name {
   width: 80px;
   /* border: 2px solid black; */
 }
-
 .brand-Union {
   /* border: 2px solid blue; */
   margin-left: 10px;
   width: 20px;
 }
-
 .search-wrapper {
   /* border: 2px solid blue; */
   width: 300px;
   display: flex;
 }
-
 .input-element {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border: 1px solid rgb(186, 184, 184);
 }
-
 .search-icon {
   display: flex;
   align-items: center;
@@ -50,41 +43,34 @@ img {
   border-bottom-right-radius: 10px;
   cursor: pointer;
 }
-
 .docs-avatar {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
   /* border: 2px solid red; */
 }
-
 .docs-bell {
   display: flex;
   align-items: center;
   /* border: 3px solid green; */
 }
-
 .docs, .bell, .avatar-wrapper, .ayodeji {
   margin-right: 20px;
 }
-
 .avatar-wrapper {
   width: 50px;
   /* border: 2px solid red;  */
 }
-
 .avatar-img {
   border-radius: 50%;
   /* border: 2px solid red; */
 }
-
 .user-name-dropdown {
   display: flex;
   align-items: center;
   padding-right: 20px;
   /* border: 3px solid green; */
 }
-
 @media screen and (min-width: 768px) {
   .search-wrapper {
     min-width: 400px;
