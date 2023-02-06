@@ -4,6 +4,8 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { MdFilterList } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Pagination from "./Pagination";
+import { formatDate, getUserStatus } from "utils/utils";
+
 
 const UsersInfo = () => {
   const baseURL =
@@ -160,9 +162,9 @@ const UsersInfo = () => {
                 <span className="items-userName">{post.userName}</span>
                 <span className="items-email">{post.email}</span>
                 <span className="items-number">{post.phoneNumber}</span>
-                <span className="items-date">{post.lastActiveDate}</span>
+                <span className="items-date">{formatDate(post.lastActiveDate)}</span>
                 <span className="dot-name">
-                  <p className="items-status">{post.orgName}</p>
+                  <p className={`items-status ${getUserStatus(post.lastActiveDate)}`}>{getUserStatus(post.lastActiveDate)}</p>
                   <BsThreeDotsVertical />
                 </span>
               </li>
