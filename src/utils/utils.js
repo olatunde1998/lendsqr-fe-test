@@ -19,3 +19,17 @@ export function getFromLocalStorage(key){
 export const isObjectEmpty = (objectName) => {
     return Object.keys(objectName).length === 0
   }
+
+export const formatDate = (date) => {
+    const dateObject = new Date(date)
+    return dateObject.toUTCString()
+}
+
+export const getUserStatus = (date) => {
+    const dateObj = new Date(date)
+    const today = new Date()
+    if (dateObj >= today) {
+        return "Active"
+    }
+    return "Inactive"
+}
