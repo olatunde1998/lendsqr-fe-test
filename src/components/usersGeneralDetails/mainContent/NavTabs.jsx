@@ -29,7 +29,7 @@ export default function NavTabs() {
   return (
     <Box sx={{ width: '100%' }}>
       <Tabs value={value} onChange={handleChange} aria-label="nav tabs example">
-        <LinkTab  label="General Details" href="/drafts" style={{textTransform : "capitalize", color: "rgba(57, 205, 204, 1)"}} className="profile-list"/>
+        <LinkTab  label="General Details" href="/drafts" style={{textTransform : "capitalize", color:"rgba(57, 205, 204, 1)"}} className="profile-list"/>
         <LinkTab label="Documents" href="/trash" style={{textTransform : "capitalize"}} className="profile-list"/>
         <LinkTab label="Bank Details" href="/spam" style={{textTransform : "capitalize"}} className="profile-list"/>
         <LinkTab label="Loans" href="/spam" style={{textTransform : "capitalize"}} className="profile-list"/>

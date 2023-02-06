@@ -53,10 +53,10 @@ const UsersInfo = () => {
           <tr>
             <th>
               <Link
-                to="/dashboard"
+                to="/users"
                 style={{
                   textDecoration: "none",
-                  color: "rgba(33, 63, 125, 1)",
+                  color:"rgba(33, 63, 125, 1)",
                 }}
               >
                 <div
@@ -72,10 +72,10 @@ const UsersInfo = () => {
             </th>
             <th>
               <Link
-                to="/dashboard"
+                to="/users"
                 style={{
                   textDecoration: "none",
-                  color: "rgba(33, 63, 125, 1)",
+                  color:"rgba(33, 63, 125, 1)",
                 }}
               >
                 <div className="user-heading" onClick={handleFilterIcon}>
@@ -88,10 +88,10 @@ const UsersInfo = () => {
             </th>
             <th>
               <Link
-                to="/dashboard"
+                to="/users"
                 style={{
                   textDecoration: "none",
-                  color: "rgba(33, 63, 125, 1)",
+                  color:"rgba(33, 63, 125, 1)",
                 }}
               >
                 <div className="email-heading" onClick={handleFilterIcon}>
@@ -104,10 +104,10 @@ const UsersInfo = () => {
             </th>
             <th>
               <Link
-                to="/dashboard"
+                to="/users"
                 style={{
                   textDecoration: "none",
-                  color: "rgba(33, 63, 125, 1)",
+                  color:"rgba(33, 63, 125, 1)",
                 }}
               >
                 <div className="number-heading" onClick={handleFilterIcon}>
@@ -120,10 +120,10 @@ const UsersInfo = () => {
             </th>
             <th>
               <Link
-                to="/dashboard"
+                to="/users"
                 style={{
                   textDecoration: "none",
-                  color: "rgba(33, 63, 125, 1)",
+                  color:"rgba(33, 63, 125, 1)",
                 }}
               >
                 <div className="date-heading" onClick={handleFilterIcon}>
@@ -136,10 +136,10 @@ const UsersInfo = () => {
             </th>
             <th>
               <Link
-                to="/dashboard"
+                to="/users"
                 style={{
                   textDecoration: "none",
-                  color: "rgba(33, 63, 125, 1)",
+                  color:"rgba(33, 63, 125, 1)",
                 }}
               >
                 <div className="status-heading" onClick={handleFilterIcon}>
@@ -153,9 +153,8 @@ const UsersInfo = () => {
           </tr>
         </thead>
         <tbody>
-          <div className="userinfo-container">
             {currentPosts.map((post, id) => (
-              <Link key={id} to={`/users/${post.id}`} style={{textDecoration: "none"}}>
+              <Link key={id} to={`/users/${post.id}`} style={{textDecoration: "none",color: "#213f7d"}}>
               <li key={id} className="items-box">
                 <span className="items-orgName">{post.orgName}</span>
                 <span className="items-userName">{post.userName}</span>
@@ -169,7 +168,6 @@ const UsersInfo = () => {
               </li>
               </Link>
             ))}
-          </div>
         </tbody>
       </table>
       <div className="paginate-box">
@@ -185,8 +183,8 @@ const UsersInfo = () => {
             <span> Organization</span>
             <div className="organization-list-wrapper">
               <select className="organization-list" id="organization-list">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
+                <option value="volvo">labore-dolor-et</option>
+                <option value="saab">natus-harum-unde</option>
                 <option value="opel">Opel</option>
                 <option value="audi">Audi</option>
               </select>
@@ -241,10 +239,10 @@ const UsersInfo = () => {
             <span>Status</span>
             <div className="status-list-wrapper">
               <select className="status-list" id="status-list">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="opel">Opel</option>
-                <option value="audi">Audi</option>
+                <option value="volvo">in-active</option>
+                <option value="saab">pending</option>
+                <option value="opel">active</option>
+                <option value="audi">Blacklisted</option>
               </select>
             </div>
           </div>
