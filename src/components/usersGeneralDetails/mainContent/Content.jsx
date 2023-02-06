@@ -18,14 +18,14 @@ const Content = ({ user }) => {
             className="back-arrow-link"
             style={{
               textDecoration: "none",
-              color: "rgba(33, 63, 125, 1);",
+              color: "rgba(33, 63, 125, 1)",
               cursor: "pointer",
             }}
           >
             <div className="back-arrow">
               <MdKeyboardBackspace
                 size={30}
-                style={{ color: "rgba(33, 63, 125, 1);" }}
+                style={{ color: "rgba(33, 63, 125, 1)" }}
               />
               <p className="back">Back to Users</p>
             </div>
