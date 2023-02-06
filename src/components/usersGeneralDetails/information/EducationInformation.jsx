@@ -11,7 +11,7 @@ const EducationInformation = ({ user }) => {
             <p className="filled">{user.education.level}</p>
           </span>
           <span>
-            <p className="un-filled">Official Email</p>
+            <p className="un-filled">OFFICIAL EMAIL</p>
             <p className="filled">{user.education.officeEmail}</p>
           </span>
         </div>

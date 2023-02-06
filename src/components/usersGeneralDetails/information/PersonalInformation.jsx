@@ -7,33 +7,33 @@ const PersonalInformation = ({ user }) => {
       <div className="row-box">
         <div>
           <span className="row-1">
-            <p className="un-filled">Full Name</p>
+            <p className="un-filled">FULL NAME</p>
             <p className="filled">
               {user?.profile.firstName} {user?.profile.lastName}
             </p>
           </span>
           <span>
-            <p className="un-filled">Marital Status</p>
+            <p className="un-filled">MARITAL STATUS</p>
             <p className="filled">Single</p>
           </span>
         </div>
         <div>
           <span className="row-1">
-            <p className="un-filled">Phone Number</p>
+            <p className="un-filled">PHONE NUMBER</p>
             <p className="filled">{user.profile.phoneNumber}</p>
           </span>
           <span>
-            <p className="un-filled">Children</p>
+            <p className="un-filled">CHILDREN</p>
             <p className="filled">None</p>
           </span>
         </div>
         <div>
           <span className="row-1">
-            <p className="un-filled">Email Address</p>
+            <p className="un-filled">EMAIL ADDRESS</p>
             <p className="filled">{user.email}</p>
           </span>
           <span>
-            <p className="un-filled">Type of Residence</p>
+            <p className="un-filled">TYPE OF RESIDENCE</p>
             <p className="filled">{user.profile.address}</p>
           </span>
         </div>
@@ -42,7 +42,7 @@ const PersonalInformation = ({ user }) => {
           <p className="filled">{user?.profile.bvn}</p>
         </span>
         <span className="row-1">
-          <p className="un-filled">Gender</p>
+          <p className="un-filled">GENDER</p>
           <p className="filled">{user.profile.gender}</p>
         </span>
       </div>
