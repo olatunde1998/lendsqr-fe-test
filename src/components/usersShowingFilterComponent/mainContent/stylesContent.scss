@@ -77,7 +77,7 @@
   align-items: center;
   margin-left: 10px;
 }
-.userinfo-container {
+tbody{
   display: flex;
   flex-wrap: wrap;
   padding-left: 18px;
@@ -85,7 +85,7 @@
   /* border:2px solid green; */
 }
 .items-box {
-  border-bottom: 2px solid rgb(201, 201, 201);
+  border-bottom: 0.7px solid rgb(201, 201, 201);
   display: flex;
   justify-content: space-between;
 }

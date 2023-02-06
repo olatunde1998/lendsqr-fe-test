@@ -11,7 +11,6 @@ import Typed from "react-typed";
 
 const RightContainer = () => {
   const [email, setEmail] = useState("");
-  // const [fullName, setFullName] = useState("");
   const [password, setPassword] = useState("");
   const [show, setShow] = useState(false);
   const [error, setError] = useState("");

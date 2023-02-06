@@ -21,7 +21,7 @@ const Header = ({user}) => {
           </div>
         </div>
         <div className="avatar-wrapper">
-          <img className="avatar-img" src="" alt="" />
+          <img className="avatar-logo" src="assets/img/avatar-img.png" alt="user identity logo" />
         </div>
         <div className="user-name-dropdown">
           <p className="ayodeji">{user?user.userName: "Anonymous"}</p>

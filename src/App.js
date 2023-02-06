@@ -22,7 +22,7 @@ import Reports from 'components/blankPage/Reports';
 import Preferences from 'components/blankPage/Preferences';
 import FeesAndPricing from 'components/blankPage/FeesAndPricing';
 import AuditLogs from 'components/blankPage/AuditLogs';
-import { Route, Routes } from 'react-router-dom';
+import { Route,Routes} from 'react-router-dom';
 import './App.css';
 import SwitchOrganization from 'components/blankPage/SwitchOrganization';
 import SignUp from 'pages/SignUp';
@@ -35,7 +35,6 @@ function App() {
         <Route path='/' element={<Login/>}/>
         <Route path='/users' element={<Dashboard/>}/>
         <Route path='/usersFilters' element={<UsersShowingFilters/>}/>
-        {/* <Route path='/generalDetails' element={<UsersGeneralDetails/>}/> */}
         <Route path='/users/:id' element={<UsersGeneralDetails/>}/>
         <Route path='/forget-password' element={<ForgetPassword/>}/>
         <Route path='/signup' element={<SignUp/>}/>
