@@ -1,20 +1,18 @@
-import axios from "axios";
 import Pagination from "components/usersShowingFilterComponent/mainContent/Pagination";
 import { useEffect, useState } from "react";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { MdFilterList } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { APIRequest } from "utils/APIRequest";
 
 const UsersInfo = () => {
-  const baseURL =
-    "https://6270020422c706a0ae70b72c.mockapi.io/lendsqr/api/v1/users";
   const [posts, setPosts] = useState([]);
 
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
 
   useEffect(() => {
-    axios.get(baseURL).then((response) => {
+    APIRequest.get("/users").then((response) => {
       setPosts(response.data);
     });
   }, []);
@@ -23,7 +21,6 @@ const UsersInfo = () => {
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
 
-  // console.log(posts);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
@@ -131,9 +128,8 @@ const UsersInfo = () => {
           </tr>
         </thead>
         <tbody>
-          <div className="userinfo-container">
             {currentPosts.map((post, id) => (
-              <Link key={id} to={`/users/${post.id}`} style={{textDecoration: "none"}}>
+              <Link key={id} to={`/users/${post.id}`} style={{textDecoration: "none", color: "#213f7d"}}>
               <li className="items-box">
                 <span className="items-orgName">{post.orgName}</span>
                 <span className="items-userName">{post.userName}</span>
@@ -149,7 +145,6 @@ const UsersInfo = () => {
               </li>
               </Link>
             ))}
-          </div>
         </tbody>
       </table>
       <div className="paginate-box">
